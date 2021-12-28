@@ -1,0 +1,29 @@
+.headerContainer {
+  padding: 4px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.searchbarContainer {
+  margin: 0px 10px;
+  border: none;
+}
+.searchbar {
+  border-radius: 50px;
+  padding: 2px;
+  background: transparent;
+  height: 32px;
+  border: white solid 2px;
+}
+
+.links {
+  display: flex;
+}
+
+.links > p {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
