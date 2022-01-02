@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-items: center;
+  padding: 0 20px;
   border: none;
   border-bottom: 2px solid white;
   justify-content: space-between;
@@ -11,52 +12,62 @@
   margin: 10px;
 }
 
-.logoContainer {
-  display: flex;
-  background: #313131;
-  justify-content: center;
-  border-radius: 50px;
-  padding: 10px;
-  width: 40px;
-  border: none;
-}
-
 .appLogo {
   position: relative;
   height: 30px;
-  width: 30px;
 }
 
 .searchbarContainer {
   display: flex;
   border: none;
+  background-color: #1c1c1e;
+  border-radius: 50px;
   flex: 1;
+  align-items: center;
+  justify-items: center;
+  padding: 5px 10px;
 }
 
 .searchbar {
-  border-radius: 50px;
   padding-left: 20px;
   background: transparent;
-  height: 32px;
+  height: 24px;
   width: 100%;
+  border: none;
   outline: none;
-  border: white solid 2px;
   color: #eee;
   font-size: 16px;
+}
+.searchbaricon {
+  height: 20px;
 }
 
 .links {
   display: flex;
+  justify-content: space-between;
 }
 
 .links > p {
-  text-transform: uppercase;
   margin-right: 10px;
 }
 
 .themeContainer {
-  background: #ccc;
-  width: 40px;
+  display: flex;
+  background: #1c1c1e;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  padding: 10px;
   border-radius: 50px;
-  margin-right: 10px;
+}
+
+.themeicon {
+  height: 20px;
+}
+
+button {
+  padding: 15px 40px;
+  border-radius: 50px;
+  background-color: cyan;
+  border: none;
 }
