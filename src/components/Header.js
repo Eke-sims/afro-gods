@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className='headerContainer'>
             <div className='logoContainer'>
-                <img src={appLogo} className='appLogo' alt=''/>
+                <img src={appLogo} className='appLogo' alt='app logo'/>
             </div>
             <div className='searchbarContainer'>
                 <div className='searchbariconContainer'>
@@ -17,9 +17,9 @@ const Header = () => {
                 <input type='text' className='searchbar' placeholder='Collection, item or user...'></input>
             </div>
             <div className='links'>
-                <p>Drops</p>
-                <p>Marketplace</p>
-                <p>Create</p>
+                <a href='#'>Drops</a>
+                <a href='#'>Marketplace</a>
+                <a href='#'>Create</a>
             </div>
             <div className='themeContainer'>
                 <img className='themeicon' src={themeicon} alt=''/>
