@@ -1,12 +1,12 @@
 import React from 'react'
 import './CollectionCard.css'
-import weth from '../assets/weth.png'
+import weth from '../assets/eth.png'
 
 
-const CollectionCard = ({id, name, traits, image}) => {
+const CollectionCard = ({id, name, traits, image, alt}) => {
     return (
         <div className='collectionCard'>
-            <img className='image' src={image} alt='' />
+            <img className='image' src={image} alt={alt} />
             <div className='name'>
                 {name} <div className='id'> •#{id}</div>
             </div>

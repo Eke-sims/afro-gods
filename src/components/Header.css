@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 
-.links > a {
+.links > p {
   text-decoration: none;
   color: white;
   margin-right: 10px;

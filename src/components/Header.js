@@ -17,9 +17,9 @@ const Header = () => {
                 <input type='text' className='searchbar' placeholder='Collection, item or user...'></input>
             </div>
             <div className='links'>
-                <a href='#'>Drops</a>
-                <a href='#'>Marketplace</a>
-                <a href='#'>Create</a>
+                <p>Drops</p>
+                <p>Marketplace</p>
+                <p>Create</p>
             </div>
             <div className='themeContainer'>
                 <img className='themeicon' src={themeicon} alt=''/>
